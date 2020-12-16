@@ -5,4 +5,4 @@ jobs:
     runs-on: ubuntu-20.04
     steps:
     - uses: actions/checkout@v2
-    - run: cat README.md # Affiche le contenu du fichier `README.md` à la base du dépôt
+    - run: cat README.md | cowsay # Affiche le contenu du fichier `README.md` à la base du dépôt
